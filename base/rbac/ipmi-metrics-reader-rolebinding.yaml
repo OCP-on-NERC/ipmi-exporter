@@ -8,5 +8,5 @@ roleRef:
   name: ipmi-metrics-reader
 subjects:
 - kind: ServiceAccount
-  name: prometheus-k8s
-  namespace: openshift-monitoring
+  name: ipmi-exporter
+  namespace: ipmi-exporter
